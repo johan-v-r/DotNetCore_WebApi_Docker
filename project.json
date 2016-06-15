@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true,
+        "debugType": "portable"
+    },
+    "dependencies": {
+        "Microsoft.NETCore.App": {
+            "type": "platform",
+            "version": "1.0.0-rc2-3002702"
+        },
+        "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-final",
+        "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final"
+        //"Microsoft.AspNet.Owin": "1.0.0-rc1-final"
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "imports": "dnxcore50"
+        }
+    }
+}
