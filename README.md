@@ -1,6 +1,6 @@
 # DotNet Core WebApi Console App #
 
-.Net Core RC2 WebApi designed using VS Code (no solution or project files available for VS).
+.Net Core 1.0 WebApi designed using VS Code (no solution or project files available for VS).
 
 Run `dotnet restore` to download packages used specified in project.json.
 
@@ -11,13 +11,15 @@ Running on top of the .Net Core, [AspNetCore.Mvc](https://www.nuget.org/packages
 # VS Code #
 The .vscode folder contains settings to build the application (Ctrl + Shift + B) as well as launch configurations to debug with .Net Core.
 
-#### Extions ####
+#### Extensions ####
 
 [C# for VS Code by OmniSharp](https://github.com/OmniSharp/omnisharp-vscode)
 
-[NuGet4Code](https://github.com/fforjan/nuget4code)
+[.Net Core Project Manager (Nuget)](https://marketplace.visualstudio.com/items?itemName=ksubedi.net-core-project-manager)
 
 # Docker #
+
+See tutorial for [Getting Started with Docker for Windows](https://docs.docker.com/docker-for-windows/)
 
 A Dockerfile is in the source. On building, it will get the microsoft/dotnet image and copy this source to the container. Build by navigating to source and run command: `docker build -t [docker_image_name] .`
 
